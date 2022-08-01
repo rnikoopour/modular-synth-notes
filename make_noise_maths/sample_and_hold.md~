@@ -1,0 +1,32 @@
+Make Noise Maths
+=====
+
+# Signal and Hold
+This works by using the gate being passed through Channel 2 to
+
+## Channel 1 Settings
+### Input Channel
+This is used as the input signal for the sample and hold. Using an
+LFO is recommended.
+
+This input signal could also be replaced by a clock into the 
+trigger input.
+
+### Rise, Fall, and Shape
+By setting the rise and fall knobs to higher values it slows down
+the change on the input signal. 
+
+The shape knob can be used to adjust how quickly it responds to 
+changes in voltages.
+
+### Both Input
+Passing the inverted gate from channel 2 into this input makes it
+so when the signal gate is open, it slows down the rate of change
+in channel 1. This change while the gate is open is what is used
+to "sample" the signal. 
+
+In reality the sample is continuously changing but the rate of 
+change is slowed to the point where it doesn't sound like there is
+change.
+
+## Channel 2 Settings
