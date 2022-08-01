@@ -14,9 +14,6 @@ In this example only Channel 1 and Channel 2 are used.
 This is used as the input signal for the sample and hold. Using an
 LFO is recommended.
 
-This input signal could also be replaced by a clock into the 
-trigger input.
-
 ### Rise, Fall, and Shape
 By setting the rise and fall knobs to higher values it slows down
 the change on the input signal. 
@@ -42,6 +39,9 @@ is then used to slow the rate of change on Channel 1.
 
 # Notes
 This effect can be achieved through various other setups as well.
+For example, using the clock to trigger Channel 1 while setting
+Channel 1's fall to zero will create an upward trill sound.
+
 
 # References
 - https://www.makenoisemusic.com/content/manuals/MATHSmanual2013.pdf
