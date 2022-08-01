@@ -5,7 +5,7 @@ rate of change on Channel 1 while the gate is open creates sample
 effect. 
 
 It is worth noting that this isn't a real sample and hold as 
-Channel 1 is continuously chaning.
+Channel 1 is continuously changing.
 
 In this example only Channel 1 and Channel 2 are used.
 
