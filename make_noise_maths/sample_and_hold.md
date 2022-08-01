@@ -23,7 +23,7 @@ changes in voltages.
 
 ### Both Input
 Passing the inverted gate from Channel 2 into this input makes it
-so when the signal gate is open, it slows down the rate of change
+so when the gate is open, it slows down the rate of change
 in Channel 1. This change while the gate is open is what is used
 to "sample" the signal. 
 
